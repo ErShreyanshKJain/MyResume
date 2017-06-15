@@ -24,13 +24,14 @@
 
             <EditText
                 android:id="@+id/etUserName"
+                style="?attr/textAppearanceLargePopupMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_default_bg"
-                android:padding="10dp"
+                android:drawableLeft="@drawable/email"
                 android:hint="Email"
-                android:textColorHint="#cccccc"
-                android:drawableLeft="@drawable/email"/>
+                android:padding="10dp"
+                android:textColorHint="#cccccc" />
             <EditText
                 android:id="@+id/etPass"
                 android:layout_width="match_parent"
