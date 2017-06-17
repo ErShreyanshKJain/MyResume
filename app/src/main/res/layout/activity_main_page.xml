@@ -32,10 +32,11 @@
             android:padding="10dp"
             android:text="Sign Up"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="func_SignUp"/>
 
         <Button
-            android:id="@+id/btnSingIn"
+            android:id="@+id/btnSignIn"
             style="@style/DefaultButtonText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,7 +45,8 @@
             android:padding="10dp"
             android:text="Sign In"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="func_SignIn"/>
     </LinearLayout>
 
 </RelativeLayout>

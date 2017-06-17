@@ -18,15 +18,15 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.vithika.myresume.CreateAccount" >
+        <activity android:name="com.example.vithika.myresume.MainPage" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.vithika.myresume.CreateAccount" />
         <activity android:name="com.example.vithika.myresume.LoginPage" />
-        <activity android:name="com.example.vithika.myresume.MainPage" />
         <activity android:name="com.example.vithika.myresume.Details" />
         <activity android:name="com.example.vithika.myresume.ChooseFormat" />
     </application>

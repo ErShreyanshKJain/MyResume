@@ -37,10 +37,10 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\jains\.android\
 		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:10:9-40
-activity#com.example.vithika.myresume.CreateAccount
+activity#com.example.vithika.myresume.MainPage
 ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:11:19-48
+		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:11:19-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
@@ -51,14 +51,14 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
 		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.example.vithika.myresume.CreateAccount
+ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:18:9-51
+	android:name
+		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:18:19-48
 activity#com.example.vithika.myresume.LoginPage
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:18:9-47
+ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:19:9-47
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:18:19-44
-activity#com.example.vithika.myresume.MainPage
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:19:9-46
-	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:19:19-43
+		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:19:19-44
 activity#com.example.vithika.myresume.Details
 ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:20:9-45
 	android:name
