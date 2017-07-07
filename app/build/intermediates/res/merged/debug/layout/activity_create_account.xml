@@ -16,8 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:padding="10dp"
-        >
+        android:padding="10dp">
 
         <EditText
             android:id="@+id/etEmail"
@@ -39,6 +38,19 @@
             android:hint="User Name"
             android:textColorHint="#bbbbbb"
             android:drawableLeft="@drawable/user"/>
+
+        <EditText
+            android:id="@+id/etPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone No."
+            android:background="@drawable/edittext_default_bg"
+            android:textColorHint="#bbbbbb"
+            android:layout_marginTop="-2dp"
+            android:padding="10dp"
+            android:ems="10"
+            android:inputType="phone" />
+
         <EditText
             android:id="@+id/etPass"
             android:layout_width="match_parent"
@@ -73,7 +85,8 @@
             android:padding="10dp"
             android:text="Sign Up"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="signUpAccount" />
     </LinearLayout>
 
 </RelativeLayout>

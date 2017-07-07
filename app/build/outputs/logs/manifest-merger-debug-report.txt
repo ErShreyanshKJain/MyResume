@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:3:5-43
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\jains\.android\build-cache\a35d2d87e3e01101d8c06f6604e1054685f83e85\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\jains\.android\build-cache\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\jains\.android\build-cache\a646d34970e0645208503955338e7e75f20f6547\output\AndroidManifest.xml:29:5-20
@@ -28,47 +28,47 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\jains\.android
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\jains\.android\build-cache\bb76e43ea5aa0e4ee1122014194a05aec14b842e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\jains\.android\build-cache\5c047fb8805d4129575a13166206130f50f059e1\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:9:9-35
 	android:allowBackup
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.vithika.myresume.MainPage
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:11:19-43
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:11:19-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:13:17-69
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:15:27-74
 activity#com.example.vithika.myresume.CreateAccount
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:18:9-51
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:18:9-51
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:18:19-48
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:18:19-48
 activity#com.example.vithika.myresume.LoginPage
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:19:9-47
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:19:9-47
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:19:19-44
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:19:19-44
 activity#com.example.vithika.myresume.Details
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:20:9-45
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:20:9-45
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:20:19-42
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:20:19-42
 activity#com.example.vithika.myresume.ChooseFormat
-ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:21:9-59
+ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:21:9-59
 	android:name
-		ADDED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml:21:19-47
 uses-sdk
-INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\jains\.android\build-cache\a35d2d87e3e01101d8c06f6604e1054685f83e85\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\jains\.android\build-cache\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\jains\.android\build-cache\a646d34970e0645208503955338e7e75f20f6547\output\AndroidManifest.xml:21:5-23:78
@@ -85,11 +85,11 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\jains\.android\
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\jains\.android\build-cache\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jains\AndroidStudioProjects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Projects\MyResume\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\jains\.android\build-cache\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\jains\.android\build-cache\a646d34970e0645208503955338e7e75f20f6547\output\AndroidManifest.xml:25:5-27:34

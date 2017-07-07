@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\menu\\choose_format.xml",
-        "source": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\menu\\choose_format.xml"
+        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_details.xml",
+        "source": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\menu\\menu_details.xml"
     },
     {
-        "merged": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_choose_format_drawer.xml",
-        "source": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\menu\\activity_choose_format_drawer.xml"
+        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_choose_format_drawer.xml",
+        "source": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\menu\\activity_choose_format_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_details.xml",
-        "source": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\menu\\menu_details.xml"
+        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\menu\\choose_format.xml",
+        "source": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\menu\\choose_format.xml"
     }
 ]

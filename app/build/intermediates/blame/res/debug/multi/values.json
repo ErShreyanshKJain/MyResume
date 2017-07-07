@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -1259,7 +1259,7 @@
                     "endOffset": 5682
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1278,7 +1278,7 @@
                     "endOffset": 5729
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1297,7 +1297,7 @@
                     "endOffset": 5780
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3710,7 +3710,7 @@
                     "endOffset": 49095
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -3729,7 +3729,7 @@
                     "endOffset": 49151
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -3748,7 +3748,7 @@
                     "endOffset": 49198
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -4527,7 +4527,7 @@
                     "endOffset": 51795
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -4736,7 +4736,7 @@
                     "endOffset": 52679
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -4755,7 +4755,7 @@
                     "endOffset": 52738
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -5059,7 +5059,7 @@
                     "endOffset": 53759
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -5078,7 +5078,7 @@
                     "endOffset": 53847
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -5097,7 +5097,7 @@
                     "endOffset": 53937
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -5116,7 +5116,7 @@
                     "endOffset": 54025
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -5135,7 +5135,7 @@
                     "endOffset": 54109
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -5154,7 +5154,7 @@
                     "endOffset": 54195
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -5173,7 +5173,7 @@
                     "endOffset": 54289
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -6275,7 +6275,7 @@
                     "endOffset": 58023
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -6294,7 +6294,7 @@
                     "endOffset": 58070
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -6370,7 +6370,7 @@
                     "endOffset": 58476
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -6390,7 +6390,7 @@
                     "endOffset": 64281
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -6410,7 +6410,7 @@
                     "endOffset": 64357
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -6429,7 +6429,7 @@
                     "endOffset": 64431
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -6581,7 +6581,7 @@
                     "endOffset": 65440
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -6600,7 +6600,7 @@
                     "endOffset": 65499
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -6717,7 +6717,7 @@
                     "endOffset": 66457
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -6737,7 +6737,7 @@
                     "endOffset": 66547
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -6757,7 +6757,7 @@
                     "endOffset": 66697
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -6777,7 +6777,7 @@
                     "endOffset": 66777
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -9661,7 +9661,7 @@
                     "endOffset": 132623
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\AndroidStudioProjects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
