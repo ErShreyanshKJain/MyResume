@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "306251179638",
+    "firebase_url": "https://my-resume-c1985.firebaseio.com",
+    "project_id": "my-resume-c1985",
+    "storage_bucket": "my-resume-c1985.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306251179638:android:f145f50066548ff8",
+        "android_client_info": {
+          "package_name": "com.example.vithika.myresume"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306251179638-l65ruecvsbot9tlt0vrls1lq9g6f1atb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl9YPzfRUqudv1KXbQhA7kQLlMlrz5eak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -24,10 +24,12 @@ public class CreateAccount extends AppCompatActivity {
 
         valPassword = etPassword.getText().toString();
 
-        if (etConfPass.getText().toString().equals(valPassword)) {
+        if (etConfPass.getText().toString() == valPassword) {
             valEmail = etEmail.getText().toString();
             valUser = etUserName.getText().toString();
             valPhoneNo = etPhoneNo.getText().toString();
+
+            Log.i("Result", "Passwords matched");
 
         } else {
             Toast.makeText(getApplicationContext(), "Password and Confirm Password doesn't match", Toast.LENGTH_SHORT).show();
@@ -71,4 +73,5 @@ public class CreateAccount extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
     }
+
 }
