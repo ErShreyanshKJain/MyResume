@@ -8,19 +8,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/background"
     tools:context="com.example.vithika.myresume.LoginPage">
-
-
-        android:background="#ffffff">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:padding="10dp"
-            >
+            android:padding="10dp">
 
             <EditText
                 android:id="@+id/etUserName"
@@ -28,12 +23,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_default_bg"
-                android:drawableLeft="@drawable/email"
-                android:hint="Email"
+                android:drawableLeft="@drawable/user"
+                android:hint="User Name"
                 android:padding="10dp"
+                android:layout_marginTop="-2dp"
                 android:textColorHint="#cccccc" />
             <EditText
                 android:id="@+id/etPass"
+                style="?attr/textAppearanceLargePopupMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edittext_bottom_bg"
@@ -55,6 +52,17 @@
                 android:text="Sign In"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/signUpText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Didn't have an account?"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary"
+                android:onClick="signUp"/>
         </LinearLayout>
 
 

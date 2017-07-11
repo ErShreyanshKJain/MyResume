@@ -15,15 +15,13 @@ public class MainPage extends AppCompatActivity {
     Button signUp;
     Button signIn;
 
-    public void func_SignUp(View view)
-    {
-        Intent up=new Intent(this,CreateAccount.class);
+    public void func_SignUp(View view) {
+        Intent up = new Intent(this, CreateAccount.class);
         startActivity(up);
     }
 
-    public void func_SignIn(View view)
-    {
-        Intent in=new Intent(this,LoginPage.class);
+    public void func_SignIn(View view) {
+        Intent in = new Intent(this, LoginPage.class);
         startActivity(in);
     }
 
@@ -86,21 +84,17 @@ public class MainPage extends AppCompatActivity {
         /*DatabaseReference dbref = FirebaseDatabase.getInstance().getReference();
         Map<String, String> values = new HashMap<>();
 
-        values.put("Shreyansh","Shrey");
+        values.put("Shreyansh", "Shrey");
         dbref.push().setValue(values, new DatabaseReference.CompletionListener() {
             @Override
             public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
 
-                if(databaseError==null)
-                {
-                    Log.i("Info","Save Successful");
-                }
-                else
-                {
-                    Log.i("Info","Save Failed");
+                if (databaseError == null) {
+                    Log.i("Info", "Save Successful");
+                } else {
+                    Log.i("Info", "Save Failed");
                 }
             }
-        });
-*/
+        });*/
     }
 }

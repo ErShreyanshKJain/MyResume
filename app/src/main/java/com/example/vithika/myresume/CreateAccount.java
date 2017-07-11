@@ -1,19 +1,24 @@
 package com.example.vithika.myresume;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
-public class CreateAccount extends AppCompatActivity {
+public class CreateAccount extends AppCompatActivity implements View.OnKeyListener {
 
     EditText etEmail, etUserName, etPhoneNo, etPassword, etConfPass;
     String valEmail, valUser, valPhoneNo, valPassword;
+    TextView signInText;
 
     public void signUpAccount(View view) {
         etEmail = (EditText) findViewById(R.id.etEmail);
@@ -30,6 +35,10 @@ public class CreateAccount extends AppCompatActivity {
             valPhoneNo = etPhoneNo.getText().toString();
 
             Log.i("Result", "Passwords matched");
+
+            Intent intent = new Intent(this, Details.class);
+            //Add extra arguments to pass
+            startActivity(intent);
 
         } else {
             Toast.makeText(getApplicationContext(), "Password and Confirm Password doesn't match", Toast.LENGTH_SHORT).show();
@@ -72,6 +81,24 @@ public class CreateAccount extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
+
+        etConfPass.setOnKeyListener(this);
     }
 
+    protected void signIn(View view) {
+        signInText = (TextView) findViewById(R.id.signInText);
+        signInText.setTextColor(Color.BLUE);
+
+        Intent intent = new Intent(this, LoginPage.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public boolean onKey(View v, int keyCode, KeyEvent event) {
+
+        if (keyCode == KeyEvent.KEYCODE_ENTER) {
+            signUpAccount(v);
+        }
+        return false;
+    }
 }
