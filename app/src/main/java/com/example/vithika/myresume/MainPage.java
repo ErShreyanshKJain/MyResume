@@ -58,7 +58,9 @@ public class MainPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
 
-        signUp = (Button) findViewById(R.id.btnSignUp);
+        //redirectIfLoggedIn();
+
+        signUp = (Button) findViewById(R.id.SignUp);
         signUp.setTranslationY(-150f);
         signUp.setScaleY(0f);
         signUp.setScaleX(0f);
@@ -68,7 +70,7 @@ public class MainPage extends AppCompatActivity {
                 .scaleY(1f)
                 .setDuration(1000);
 
-        signIn = (Button) findViewById(R.id.btnSignIn);
+        signIn = (Button) findViewById(R.id.SignIn);
         signIn.setTranslationY(150f);
         signIn.setScaleY(0f);
         signIn.setScaleX(0f);
@@ -97,4 +99,14 @@ public class MainPage extends AppCompatActivity {
             }
         });*/
     }
+
+    /*public void redirectIfLoggedIn()
+    {
+        // if statement to check to Logged In user
+
+        Intent intent = new Intent(this,Details.class);
+        //Enter some details to pass if required
+
+        startActivity(intent);
+    }*/
 }

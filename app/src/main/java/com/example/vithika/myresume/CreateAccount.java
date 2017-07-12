@@ -10,22 +10,29 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class CreateAccount extends AppCompatActivity implements View.OnKeyListener {
+public class CreateAccount extends AppCompatActivity implements View.OnClickListener,View.OnKeyListener {
 
     EditText etEmail, etUserName, etPhoneNo, etPassword, etConfPass;
     String valEmail, valUser, valPhoneNo, valPassword;
     TextView signInText;
+    RelativeLayout relativeLayout;
+    LinearLayout linearLayout;
 
     public void signUpAccount(View view) {
-        etEmail = (EditText) findViewById(R.id.etEmail);
-        etUserName = (EditText) findViewById(R.id.etUserName);
-        etPhoneNo = (EditText) findViewById(R.id.etPhoneNo);
-        etPassword = (EditText) findViewById(R.id.etPass);
-        etConfPass = (EditText) findViewById(R.id.etConfPass);
+        etEmail = (EditText)findViewById(R.id.etEmail);
+        etUserName = (EditText)findViewById(R.id.etUserName);
+        etPhoneNo = (EditText)findViewById(R.id.etPhoneNo);
+        etPassword = (EditText)findViewById(R.id.etPass);
+        etConfPass = (EditText)findViewById(R.id.etConfPass);
+
+        etConfPass.setOnKeyListener(this);
 
         valPassword = etPassword.getText().toString();
 
@@ -35,7 +42,7 @@ public class CreateAccount extends AppCompatActivity implements View.OnKeyListen
             valPhoneNo = etPhoneNo.getText().toString();
 
             Log.i("Result", "Passwords matched");
-
+            //Add code to push the values to Firebase
             Intent intent = new Intent(this, Details.class);
             //Add extra arguments to pass
             startActivity(intent);
@@ -82,8 +89,14 @@ public class CreateAccount extends AppCompatActivity implements View.OnKeyListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
 
-        etConfPass.setOnKeyListener(this);
-    }
+        setTitle("Sign Up");
+
+        relativeLayout = (RelativeLayout)findViewById(R.id.backgroundRelative);
+        linearLayout = (LinearLayout)findViewById(R.id.backgroundLinear);
+
+        relativeLayout.setOnClickListener(this);
+        linearLayout.setOnClickListener(this);
+        }
 
     protected void signIn(View view) {
         signInText = (TextView) findViewById(R.id.signInText);
@@ -96,9 +109,19 @@ public class CreateAccount extends AppCompatActivity implements View.OnKeyListen
     @Override
     public boolean onKey(View v, int keyCode, KeyEvent event) {
 
-        if (keyCode == KeyEvent.KEYCODE_ENTER) {
+        if (keyCode == event.KEYCODE_ENTER && event.getAction() == event.ACTION_DOWN) {
             signUpAccount(v);
         }
         return false;
+    }
+
+    @Override
+    public void onClick(View v) throws NullPointerException
+    {
+        if (v.getId()==R.id.backgroundRelative || v.getId()==R.id.backgroundLinear)
+        {
+            InputMethodManager inputMethodManager = (InputMethodManager)getSystemService(INPUT_METHOD_SERVICE);
+            inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),0);
+        }
     }
 }

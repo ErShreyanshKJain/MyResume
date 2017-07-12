@@ -8,16 +8,17 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vithika.myresume.CreateAccount"
     tools:targetApi="lollipop"
-
-    tools:context="com.example.vithika.myresume.CreateAccount">
+    android:id="@+id/backgroundRelative">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:id="@+id/backgroundLinear">
 
         <EditText
             android:id="@+id/etEmail"
@@ -27,6 +28,7 @@
             android:background="@drawable/edittext_default_bg"
             android:drawableLeft="@drawable/email"
             android:hint="Email"
+            android:inputType="textEmailAddress"
             android:padding="10dp"
             android:textColorHint="#bbbbbb" />
         <EditText
@@ -37,6 +39,7 @@
             android:background="@drawable/edittext_default_bg"
             android:drawableLeft="@drawable/user"
             android:hint="User Name"
+            android:inputType="textPersonName"
             android:padding="10dp"
             android:textColorHint="#bbbbbb" />
 
@@ -60,6 +63,7 @@
             android:background="@drawable/edittext_bottom_bg"
             android:drawableLeft="@drawable/password"
             android:hint="Password"
+            android:inputType="textPassword"
             android:padding="10dp"
             android:password="true"
             android:textColorHint="#bbbbbb" />
@@ -72,6 +76,7 @@
             android:background="@drawable/edittext_bottom_bg"
             android:drawableLeft="@drawable/password"
             android:hint="Confirm Password"
+            android:inputType="textPassword"
             android:padding="10dp"
             android:password="true"
             android:textColorHint="#bbbbbb" />
@@ -93,12 +98,13 @@
             android:id="@+id/signInText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text = "Already have an account?"
             android:gravity="center"
-            android:textSize="15sp"
+            android:onClick="signIn"
             android:padding="10dp"
+            android:text="Already have an account?"
             android:textColor="@color/colorPrimary"
-            android:onClick="signIn"/>
+            android:textSize="15sp" />
+
     </LinearLayout>
 
 </RelativeLayout>

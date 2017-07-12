@@ -11,35 +11,38 @@
     tools:context="com.example.vithika.myresume.LoginPage">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:padding="10dp">
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/activity_linear">
 
             <EditText
-                android:id="@+id/etUserName"
+                android:id="@+id/etUser"
                 style="?attr/textAppearanceLargePopupMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
                 android:background="@drawable/edittext_default_bg"
                 android:drawableLeft="@drawable/user"
                 android:hint="User Name"
+                android:inputType="textPersonName"
                 android:padding="10dp"
-                android:layout_marginTop="-2dp"
                 android:textColorHint="#cccccc" />
             <EditText
-                android:id="@+id/etPass"
+                android:id="@+id/etPassword"
                 style="?attr/textAppearanceLargePopupMenu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/edittext_bottom_bg"
                 android:layout_marginTop="-2dp"
-                android:padding="10dp"
+                android:background="@drawable/edittext_bottom_bg"
+                android:drawableLeft="@drawable/password"
                 android:hint="Password"
-                android:textColorHint="#cccccc"
+                android:inputType="textPassword"
+                android:padding="10dp"
                 android:password="true"
-                android:drawableLeft="@drawable/password"/>
+                android:textColorHint="#cccccc" />
 
             <Button
                 android:id="@+id/btnSingIn"
@@ -51,18 +54,19 @@
                 android:padding="10dp"
                 android:text="Sign In"
                 android:textColor="@color/colorPrimary"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="signInAccount"/>
 
             <TextView
                 android:id="@+id/signUpText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Didn't have an account?"
                 android:gravity="center"
-                android:textSize="15sp"
+                android:onClick="signUp"
                 android:padding="10dp"
+                android:text="Didn't have an account?"
                 android:textColor="@color/colorPrimary"
-                android:onClick="signUp"/>
+                android:textSize="15sp" />
         </LinearLayout>
 
 

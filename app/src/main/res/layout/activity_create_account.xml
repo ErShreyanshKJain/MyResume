@@ -9,15 +9,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.vithika.myresume.CreateAccount"
-
-    tools:targetApi="lollipop">
+    tools:targetApi="lollipop"
+    android:id="@+id/backgroundRelative">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:id="@+id/backgroundLinear">
+
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
@@ -102,6 +104,7 @@
             android:text="Already have an account?"
             android:textColor="@color/colorPrimary"
             android:textSize="15sp" />
+
     </LinearLayout>
 
 </RelativeLayout>
