@@ -17,6 +17,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+//We need delete this class. So whatever work you have added here, please add it to StartActivity.java
+
 public class CreateAccount extends AppCompatActivity implements View.OnClickListener,View.OnKeyListener {
 
     EditText etEmail, etUserName, etPhoneNo, etPassword, etConfPass;
@@ -109,7 +111,7 @@ public class CreateAccount extends AppCompatActivity implements View.OnClickList
     @Override
     public boolean onKey(View v, int keyCode, KeyEvent event) {
 
-        if (keyCode == event.KEYCODE_ENTER && event.getAction() == event.ACTION_DOWN) {
+        if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN) {
             signUpAccount(v);
         }
         return false;

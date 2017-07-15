@@ -17,6 +17,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+//We need delete this class. So whatever work you have added here, please add it to StartActivity.java
+
 public class LoginPage extends AppCompatActivity implements View.OnKeyListener, View.OnClickListener {
 
     TextView signUpText;
@@ -94,7 +96,7 @@ public class LoginPage extends AppCompatActivity implements View.OnKeyListener, 
     @Override
     public boolean onKey(View v, int keyCode, KeyEvent event) {
 
-        if (keyCode == event.KEYCODE_ENTER && event.getAction() == event.ACTION_DOWN) {
+        if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN) {
             signInAccount(v);
         }
 

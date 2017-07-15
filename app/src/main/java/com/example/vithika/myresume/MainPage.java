@@ -2,6 +2,7 @@ package com.example.vithika.myresume;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -16,8 +17,19 @@ public class MainPage extends AppCompatActivity {
     Button signIn;
 
     public void func_SignUp(View view) {
-        Intent up = new Intent(this, CreateAccount.class);
-        startActivity(up);
+        signUp.animate()
+                .translationYBy(-150f)
+                .scaleX(0f)
+                .scaleY(0f)
+                .setDuration(500);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent up = new Intent(MainPage.this, CreateAccount.class);
+                startActivity(up);
+            }
+        }, 600);
     }
 
     public void func_SignIn(View view) {
@@ -54,7 +66,7 @@ public class MainPage extends AppCompatActivity {
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
 
@@ -80,24 +92,6 @@ public class MainPage extends AppCompatActivity {
                 .scaleY(1f)
                 .setDuration(1000);
 
-        //SQLiteDatabase database = this.openOrCreateDatabase("Users",MODE_PRIVATE,null);
-        //Practice of Firebase
-
-        /*DatabaseReference dbref = FirebaseDatabase.getInstance().getReference();
-        Map<String, String> values = new HashMap<>();
-
-        values.put("Shreyansh", "Shrey");
-        dbref.push().setValue(values, new DatabaseReference.CompletionListener() {
-            @Override
-            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
-
-                if (databaseError == null) {
-                    Log.i("Info", "Save Successful");
-                } else {
-                    Log.i("Info", "Save Failed");
-                }
-            }
-        });*/
     }
 
     /*public void redirectIfLoggedIn()
