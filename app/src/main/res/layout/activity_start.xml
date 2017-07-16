@@ -4,7 +4,8 @@
     android:id="@+id/backgroundRelative"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.vithika.myresume.StartActivity">
+    tools:context="com.example.vithika.myresume.StartActivity"
+    tools:targetApi="LOLLIPOP">
 
     <LinearLayout
         android:id="@+id/mainLinear"
@@ -47,74 +48,96 @@
     <LinearLayout
         android:id="@+id/createAccLinear"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
         android:orientation="vertical"
-        android:padding="10dp"
         android:visibility="invisible">
 
-        <EditText
-            android:id="@+id/etEmail"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
-            android:background="@drawable/edittext_default_bg"
-            android:drawableLeft="@drawable/email"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:padding="10dp"
-            android:textColorHint="#bbbbbb" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/etUserName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
-            android:background="@drawable/edittext_default_bg"
-            android:drawableLeft="@drawable/user"
-            android:hint="User Name"
-            android:inputType="textPersonName"
-            android:padding="10dp"
-            android:textColorHint="#bbbbbb" />
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:drawableLeft="@drawable/email"
+                android:focusable="true"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColorHint="#bbbbbb" />
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/etPhoneNo"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
-            android:background="@drawable/edittext_default_bg"
-            android:ems="10"
-            android:hint="Phone No."
-            android:inputType="phone"
-            android:padding="10dp"
-            android:textColorHint="#bbbbbb" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/etPass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
-            android:background="@drawable/edittext_bottom_bg"
-            android:drawableLeft="@drawable/password"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:password="true"
-            android:textColorHint="#bbbbbb" />
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:drawableLeft="@drawable/user"
+                android:focusable="true"
+                android:hint="User Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColorHint="#bbbbbb" />
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/etConfPass"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
-            android:background="@drawable/edittext_bottom_bg"
-            android:drawableLeft="@drawable/password"
-            android:hint="Confirm Password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:password="true"
-            android:textColorHint="#bbbbbb" />
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etPhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:ems="10"
+                android:focusable="true"
+                android:hint="Phone No."
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColorHint="#bbbbbb" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:drawableLeft="@drawable/password"
+                android:focusable="true"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="#bbbbbb" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etConfPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:drawableLeft="@drawable/password"
+                android:focusable="true"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="#bbbbbb" />
+        </android.support.design.widget.TextInputLayout>
 
         <Button
             android:id="@+id/btnSingUp"
@@ -151,32 +174,41 @@
         android:padding="10dp"
         android:visibility="invisible">
 
-        <EditText
-            android:id="@+id/etUser"
-            style="?attr/textAppearanceLargePopupMenu"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
-            android:background="@drawable/edittext_default_bg"
-            android:drawableLeft="@drawable/user"
-            android:hint="User Name"
-            android:inputType="textPersonName"
-            android:padding="10dp"
-            android:textColorHint="#cccccc" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/etPassword"
-            style="?attr/textAppearanceLargePopupMenu"
+            <EditText
+                android:id="@+id/etUser"
+                style="?attr/textAppearanceLargePopupMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:drawableLeft="@drawable/user"
+                android:focusable="true"
+                android:hint="User Name"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColorHint="#cccccc" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="-2dp"
-            android:background="@drawable/edittext_bottom_bg"
-            android:drawableLeft="@drawable/password"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:padding="10dp"
-            android:password="true"
-            android:textColorHint="#cccccc" />
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etPassword"
+                style="?attr/textAppearanceLargePopupMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:drawableLeft="@drawable/password"
+                android:focusable="true"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="#cccccc" />
+        </android.support.design.widget.TextInputLayout>
 
         <Button
             android:id="@+id/btnSingIn"

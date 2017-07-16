@@ -10,13 +10,13 @@
     tools:context="com.example.vithika.myresume.MainPage">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <Button
             android:id="@+id/SignUp"
@@ -25,11 +25,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:background="@android:color/holo_blue_light"
+            android:onClick="func_SignUp"
             android:padding="10dp"
             android:text="Sign Up"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold"
-            android:onClick="func_SignUp"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/SignIn"
@@ -38,11 +38,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:background="@android:color/holo_blue_light"
+            android:onClick="func_SignIn"
             android:padding="10dp"
             android:text="Sign In"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold"
-            android:onClick="func_SignIn"/>
+            android:textStyle="bold" />
     </LinearLayout>
 </RelativeLayout>
 

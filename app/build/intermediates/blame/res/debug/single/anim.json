@@ -48,24 +48,24 @@
         "source": "C:\\Users\\jains\\.android\\build-cache\\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
         "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
         "source": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\jains\\.android\\build-cache\\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right.xml",
         "source": "E:\\Android Projects\\MyResume\\app\\src\\main\\res\\anim\\slide_right.xml"
+    },
+    {
+        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\jains\\.android\\build-cache\\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",

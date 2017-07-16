@@ -190,6 +190,7 @@ public class StartActivity extends AppCompatActivity implements View.OnKeyListen
         switch (item.getItemId()) {
             case R.id.action_settings:
                 Log.i("Message", "Action Settings chosen");
+                Intent intent = new Intent(this, SettingsActivity.class);
                 return true;
 
             case R.id.action_help:
