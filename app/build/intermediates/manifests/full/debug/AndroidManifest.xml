@@ -8,13 +8,12 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.1" />
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for App measurement to run. -->
+        android:value="25.3.1" /> <!-- Optional permission for App measurement to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
@@ -37,14 +36,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.vithika.myresume.CreateAccount" />
-        <activity android:name="com.example.vithika.myresume.LoginPage" />
         <activity android:name="com.example.vithika.myresume.Details" />
         <activity android:name="com.example.vithika.myresume.ChooseFormat" />
-        <activity android:name="com.example.vithika.myresume.MainPage" />
-        <activity
-            android:name="com.example.vithika.myresume.SettingsActivity"
-            android:label="@string/title_activity_settings" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

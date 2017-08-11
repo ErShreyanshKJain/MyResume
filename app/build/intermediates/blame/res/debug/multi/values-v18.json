@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

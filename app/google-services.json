@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "306251179638",
-    "firebase_url": "https://my-resume-c1985.firebaseio.com",
-    "project_id": "my-resume-c1985",
-    "storage_bucket": "my-resume-c1985.appspot.com"
+    "project_number": "499613662239",
+    "firebase_url": "https://my-resume-763b4.firebaseio.com",
+    "project_id": "my-resume-763b4",
+    "storage_bucket": "my-resume-763b4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:306251179638:android:f145f50066548ff8",
+        "mobilesdk_app_id": "1:499613662239:android:f145f50066548ff8",
         "android_client_info": {
           "package_name": "com.example.vithika.myresume"
         }
       },
       "oauth_client": [
         {
-          "client_id": "306251179638-l65ruecvsbot9tlt0vrls1lq9g6f1atb.apps.googleusercontent.com",
+          "client_id": "499613662239-hdhc1vpur44li2qtphafno8if50dqohm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vithika.myresume",
+            "certificate_hash": "b51425dc76332927ffdb1d07914f8f26e891dec8"
+          }
+        },
+        {
+          "client_id": "499613662239-90qbevhio0b1c7guam4nbo2bm19urvpd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAl9YPzfRUqudv1KXbQhA7kQLlMlrz5eak"
+          "current_key": "AIzaSyBkbByljtc2RAdzwprKIuHnw3wXIEKvlUQ"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499613662239-90qbevhio0b1c7guam4nbo2bm19urvpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

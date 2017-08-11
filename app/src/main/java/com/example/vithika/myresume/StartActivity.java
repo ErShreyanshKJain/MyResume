@@ -1,7 +1,14 @@
 package com.example.vithika.myresume;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteException;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Color;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -22,7 +29,24 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 public class StartActivity extends AppCompatActivity implements View.OnKeyListener, View.OnClickListener {
+
+
+    // CONNECTION_TIMEOUT and READ_TIMEOUT are in milliseconds
+
+    public static final int CONNECTION_TIMEOUT=10000;
+    public static final int READ_TIMEOUT=15000;
 
     Button signUp, signIn, signIN, signUP;
     EditText etEmail, etUserName, etPhoneNo, etPassword, etConfPass, userName, password;
@@ -37,6 +61,8 @@ public class StartActivity extends AppCompatActivity implements View.OnKeyListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+
+//        DatabaseHelper myDB = new DatabaseHelper(this);
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
@@ -141,12 +167,27 @@ public class StartActivity extends AppCompatActivity implements View.OnKeyListen
             valPhoneNo = etPhoneNo.getText().toString();
 
             Log.i("Result", "Passwords matched");
+
             //Add code to push the values to Firebase
+//            try {
+//                DatabaseHelper DatabaseHelper = new DatabaseHelper(this);
+//                SQLiteDatabase db = DatabaseHelper.getWritableDatabase();
+//
+//                DatabaseHelper.insertData(db,valUser ,valEmail,valPassword,valPhoneNo );
+//                Toast t1 = Toast.makeText(getApplicationContext(),"successfully entered in the database",Toast.LENGTH_SHORT);
+//                db.close();
+//            } catch (SQLiteException e) {
+//                Toast toast = Toast.makeText(getApplicationContext(), "Unavailable to Write in the Database", Toast.LENGTH_SHORT);
+//                toast.show();
+//            }
+
             Intent intent = new Intent(this, Details.class);
             //Add extra arguments to pass
             startActivity(intent);
 
-        } else {
+        }
+        else
+            {
             Toast.makeText(getApplicationContext(), "Password and Confirm Password doesn't match", Toast.LENGTH_SHORT).show();
             Toast.makeText(getApplicationContext(), "Please Try again", Toast.LENGTH_SHORT).show();
 
@@ -190,7 +231,7 @@ public class StartActivity extends AppCompatActivity implements View.OnKeyListen
         switch (item.getItemId()) {
             case R.id.action_settings:
                 Log.i("Message", "Action Settings chosen");
-                Intent intent = new Intent(this, SettingsActivity.class);
+//                Intent intent = new Intent(this, SettingsActivity.class);
                 return true;
 
             case R.id.action_help:
@@ -215,19 +256,55 @@ public class StartActivity extends AppCompatActivity implements View.OnKeyListen
     protected void signInAccount(View view) {
         String user = userName.getText().toString();
         String pass = password.getText().toString();
+        new AsyncLogin().execute(user,pass);
 
         password.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN) {
                     signInAccount(v);
+
                 }
                 return false;
-            }
-        });
+                    }
+                });
+         }
 
         // Enter to code to take check these strings from the database
-    }
+//        try{
+//            SQLiteOpenHelper DatabaseHelper = new DatabaseHelper(this);
+//            SQLiteDatabase db = DatabaseHelper.getReadableDatabase();
+//
+//            Cursor cursor = db.query("Login_table",
+//                    new String[] {"NAME","PASSWORD"},
+//                    null,
+//                    null,
+//                    null,null,null);
+//            if(cursor.moveToFirst()) {
+//                do{
+//                    String Name = cursor.getString(0);
+//                    String Pass = cursor.getString(1);
+//                   if (user.equals(Name) && pass.equals(Pass)) {
+//
+//                        Intent statement to be exceuted after it is correct ;
+//                    }
+//
+//                }while(cursor.moveToNext());
+//            }
+//            else
+//            {
+//                Toast t = Toast.makeText(getApplicationContext(), "WRONG USERNAME OR PASSWORD", Toast.LENGTH_SHORT);
+//                t.show();
+//            }
+//            cursor.close();
+//            db.close();
+//
+//        }
+//        catch(SQLiteException e){
+//            Toast toast = Toast.makeText(getApplicationContext(),"Database unavailable", Toast.LENGTH_SHORT);
+//            toast.show();
+//        }
+//    }
 
     protected void signUp(View view) {
         signUpText = (TextView) findViewById(R.id.signUpText);
@@ -239,6 +316,130 @@ public class StartActivity extends AppCompatActivity implements View.OnKeyListen
         loginLinear.setVisibility(View.INVISIBLE);
         createAccLinear.setVisibility(View.VISIBLE);
         createAccLinear.startAnimation(slideRight);
+    }
+
+
+    private class AsyncLogin extends AsyncTask<String, String, String>
+    {
+        ProgressDialog pdLoading = new ProgressDialog(StartActivity.this);
+        HttpURLConnection conn;
+        URL url = null;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+
+            //this method will be running on UI thread
+            pdLoading.setMessage("\tLoading...");
+            pdLoading.setCancelable(false);
+            pdLoading.show();
+
+        }
+        @Override
+        protected String doInBackground(String... params) {
+            try {
+
+                // Enter URL address where your php file resides
+                url = new URL("http://localhost/android_connect/login.php");
+
+            } catch (MalformedURLException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                return "exception";
+            }
+            try {
+                // Setup HttpURLConnection class to send and receive data from php and mysql
+                conn = (HttpURLConnection)url.openConnection();
+                conn.setReadTimeout(READ_TIMEOUT);
+                conn.setConnectTimeout(CONNECTION_TIMEOUT);
+                conn.setRequestMethod("POST");
+
+                // setDoInput and setDoOutput method depict handling of both send and receive
+                conn.setDoInput(true);
+                conn.setDoOutput(true);
+
+                // Append parameters to URL
+                Uri.Builder builder = new Uri.Builder()
+                        .appendQueryParameter("username", params[0])
+                        .appendQueryParameter("password", params[1]);
+                String query = builder.build().getEncodedQuery();
+
+                // Open connection for sending data
+                OutputStream os = conn.getOutputStream();
+                BufferedWriter writer = new BufferedWriter(
+                        new OutputStreamWriter(os, "UTF-8"));
+                writer.write(query);
+                writer.flush();
+                writer.close();
+                os.close();
+                conn.connect();
+
+            } catch (IOException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+                return "exception";
+            }
+
+            try {
+
+                int response_code = conn.getResponseCode();
+
+                // Check if successful connection made
+                if (response_code == HttpURLConnection.HTTP_OK) {
+
+                    // Read data sent from server
+                    InputStream input = conn.getInputStream();
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+                    StringBuilder result = new StringBuilder();
+                    String line;
+
+                    while ((line = reader.readLine()) != null) {
+                        result.append(line);
+                    }
+
+                    // Pass data to onPostExecute method
+                    return(result.toString());
+
+                }else{
+
+                    return("unsuccessful");
+                }
+
+            } catch (IOException e) {
+                e.printStackTrace();
+                return "exception";
+            } finally {
+                conn.disconnect();
+            }
+
+
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+
+            //this method will be running on UI thread
+
+            pdLoading.dismiss();
+
+            if(result.equalsIgnoreCase("true"))
+            {
+                Intent intent = new Intent(StartActivity.this,Details.class);
+                startActivity(intent);
+                StartActivity.this.finish();
+
+            }else if (result.equalsIgnoreCase("false")){
+
+                // If username and password does not match display a error message
+                Toast.makeText(StartActivity.this, "Invalid email or password", Toast.LENGTH_LONG).show();
+
+            } else if (result.equalsIgnoreCase("exception") || result.equalsIgnoreCase("unsuccessful")) {
+
+                Toast.makeText(StartActivity.this, "OOPs! Something went wrong. Connection Problem.", Toast.LENGTH_LONG).show();
+
+            }
+        }
+
     }
 
 }

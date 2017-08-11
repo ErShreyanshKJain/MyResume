@@ -1,106 +1,106 @@
 [
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\daf7bf8168bea89f47b20a995cfa64ece4d9c270\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\b8b6f73ea614dbbfcdee30a067617c571d156949\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\daf7bf8168bea89f47b20a995cfa64ece4d9c270\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\98a1030b7ce8882393f3566bd25abee0c8932f0a\\output\\res\\color\\design_error.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\\output\\res\\color\\design_error.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\b8b6f73ea614dbbfcdee30a067617c571d156949\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_tint_spinner.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\b8b6f73ea614dbbfcdee30a067617c571d156949\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\daf7bf8168bea89f47b20a995cfa64ece4d9c270\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\b8b6f73ea614dbbfcdee30a067617c571d156949\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\daf7bf8168bea89f47b20a995cfa64ece4d9c270\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_tint_default.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\ab608b7d9753f3e9f4235dbee8091ebe8cb7be18\\output\\res\\color\\design_tint_password_toggle.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\98a1030b7ce8882393f3566bd25abee0c8932f0a\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "E:\\Android Projects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\jains\\.android\\build-cache\\a646d34970e0645208503955338e7e75f20f6547\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "C:\\Users\\Rajender\\AndroidStudioProjects\\MyResume\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Rajender\\.android\\build-cache\\bb1beb97a7b9189b88bae894357d46295bedf48d\\output\\res\\color\\abc_tint_spinner.xml"
     }
 ]
